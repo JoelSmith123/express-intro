@@ -1,0 +1,22 @@
+html {
+  width: 100%;
+}
+
+h1 {
+  color: blue;
+}
+
+.sunsets {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-rows: repeat(1fr);
+  grid-template-columns: 300px 300px 300px;
+  justify-content: center;
+  margin-top: 100px;
+  max-width: 100%;
+}
+
+.sunset-img {
+  height: 200px;
+  width: 300px;
+}
